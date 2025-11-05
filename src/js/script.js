@@ -6,7 +6,7 @@ let images = [
 
 let descriptions = [
     'Bolo de Morango: Delicioso bolo recheado com creme e morangos frescos.',
-    'Cannoli: Tradicional doce italiano com recheio cremoso e crocante.',
+    'Cannoli: Tradicional doce italiano com recheio cremoso e casca crocante.',
     'Cheesecake: Clássico cheesecake com base crocante e cobertura de goiabada.'
 ]
 
