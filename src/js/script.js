@@ -23,3 +23,22 @@ function SlideShow() {
     setTimeout(SlideShow, time);
 }
 SlideShow();
+
+function changeColor(color) {
+    document.body.style.backgroundColor = color;
+}
+
+const colorButtons = [
+    { id: 'Cor1', color: '#f8c8dc' },
+    { id: 'Cor2', color: '#ffffff' },
+    { id: 'Cor3', color: '#ffe4e1' }
+];
+
+colorButtons.forEach(({ id, color }) => {
+    const button = document.getElementById(id);
+    if (!button) {
+        return;
+    }
+    button.style.backgroundColor = color;
+    button.addEventListener('click', () => changeColor(color));
+});

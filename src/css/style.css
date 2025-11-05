@@ -19,11 +19,18 @@
     padding: 0;
     margin: 0;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
 .navbar li {
     margin: 0 15px;
+}
+
+.navbar li.push-right {
+    margin-left: auto;
+    display: flex;
+    gap: 8px;
 }
 
 .navbar a {
@@ -50,4 +57,25 @@
     font-size: 1.2em;
     color: #555;
     margin-top: 20px;
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+button.Btncor#Cor1 {
+    background-color: #f8c8dc;
+}
+
+button.Btncor#Cor2 {
+    background-color: #ffffff;
+}
+
+button.Btncor#Cor3 {
+    background-color: #f1948a;
 }
